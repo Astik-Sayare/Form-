@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    <header>
+        <h1>This is a <b><I><U>FORM</U></I></b></h1>
+    </header>
+
+    <main>
+        <Section>
+            <div>
+
+                <form action="php">
+                    <div>
+                        <label for="FirstName">First Name: </label>
+                        <input type="text" placeholder="Enter your first name... " id="firstname" name="Firstname">
+                    </div>
+
+                    <br>
+                    <div>
+                        <label for="LasttName">Last Name: </label>
+                        <input type="text" placeholder="Enter your last name... " id="lastname" name="Lastname">
+                    </div>
+
+                    <br>
+                    <div>
+                        <label for="Email">Email: </label>
+                        <input type="email" placeholder="Enter your email... " id="email" name="YourEmail">
+                    </div>
+
+                    <br>
+                    <div>
+                        <label for="Number">Phone Number: </label>
+                        <input type="number" placeholder="Enter your mobile number... " id="number" name="Number"
+                            minlength="10">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="Address">Your Premanent Address</label><br>
+                        <textarea name="address" id="Address" cols="30" rows="10"
+                            placeholder="Enter your address here..."></textarea>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="City">City: </label>
+                        <select name="city" id="yourcity">
+                            <option value="Select City">Select City</option>
+                            <option value="Nagpur">Nagpur</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Gujrat">Hydarbad</option>
+                            <option value="Banglore">Banglore</option>
+                            <option value="Mysore">Mysore</option>
+                        </select>
+                    </div>
+                    <br>
+                    <!-- Radio Button  -->
+
+
+                    <legend>Gender</legend>
+
+                    <div>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+
+                        <input type="radio" name="gender" id="Female" value="female">
+                        <label for="Female">Female</label>
+                    </div>
+
+
+                    <br>
+                    <!-- CheckedBox  -->
+                    <div>
+                        <h3>Your Skills</h3>
+                        <input type="checkbox" name="HTML" id="html">
+                        <label for="html">HTML</label>
+
+                        <input type="checkbox" name="CSS" id="css">
+                        <label for="css">CSS</label>
+
+                        <input type="checkbox" name="JAVASCRIPT" id="javascript">
+                        <label for="javascript">JAVASCRIPT</label>
+
+                        <input type="checkbox" name="NODE.JS" id="node.js">
+                        <label for="node.js">NODE.JS</label>
+
+                        <input type="checkbox" name="REACT" id="react">
+                        <label for="react">REACT</label>
+
+                        <input type="checkbox" name="ANGULAR" id="angular">
+                        <label for="angular">ANGULAR</label>
+
+                        <input type="checkbox" name="C/CPP" id="c/cpp">
+                        <label for="c/cpp">C/CPP</label>
+
+                        <input type="checkbox" name="JAVA" id="java">
+                        <label for="java">JAVA</label>
+
+                        <input type="checkbox" name="PYTHON" id="python">
+                        <label for="python">PYTHON</label>
+                    </div>
+
+                    <BR>
+                    </BR>
+                    <div>
+                        <input class="btn" type="reset" value="RESET">
+                        <input class="btn" type="submit" value="SUBMIT">
+                        <br>
+                        <hr><br>
+                    </div>
+                </form>
+
+            </div>
+        </Section>
+    </main>
+
+    <footer>
+        <div>
+            Contact us | astiksayare18@gmail.com
+        </div>
+    </footer>
+</body>
+
+</html>
